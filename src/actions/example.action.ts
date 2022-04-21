@@ -1,6 +1,6 @@
 import { APIGatewayEvent, APIGatewayProxyResult } from 'aws-lambda';
 
-import { HttpResponse, StatusCode } from '../http/';
+import { HttpResponse, StatusCode } from '../http';
 
 // Utils
 

@@ -1,6 +1,32 @@
 
 # Io FinNet code example
 
+## Answer
+
+I couldn't set up the environment. Constantly had an issue with StackError. Couldn't find some module. Tried to fix that, but without success.
+
+I decided to write the tests base on documentation and implementation.
+
+Tests are written in Typescript, using JestJS as a test runner and axios to perform requests.
+
+You can find them in `tests/` directory.
+
+To run them, simply tap in console: 
+
+```sh
+yarn test
+```
+
+or 
+
+```sh
+npm run test
+```
+
+### Issue
+
+The issue with code is that you basically don't need an password in headers to get the token. Only username is compared to `bob` from the request.
+
 ## About
 
   
@@ -75,7 +101,7 @@ serverless offline
 
   
 
-### Running offline itnegration tests
+### Running offline integration tests
 
   
 
